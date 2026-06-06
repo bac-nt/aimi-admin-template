@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /dashboard/
+Disallow: /apps/
+Disallow: /forms/
+Disallow: /tables/
+Disallow: /charts/
+Disallow: /ui/
+
+# Allow public marketing pages
+Allow: /pages/homepage
+Allow: /pages/pricing
+Allow: /pages/about
+Allow: /pages/contact
+Allow: /pages/blog
+Allow: /pages/portfolio
+
+Sitemap: https://modernize-admin.vercel.app/sitemap.xml
